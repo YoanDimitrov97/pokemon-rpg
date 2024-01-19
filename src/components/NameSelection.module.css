@@ -1,0 +1,36 @@
+.holder {
+    background:var(--darkred);
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    row-gap:16px;
+}
+
+.name {
+    border:none;
+    width:240px;
+    height:48px;
+    padding-left:8px;
+    border-radius:8px;
+    box-sizing:border-box;
+
+    &:focus {
+        outline:none;
+    }
+}
+
+.btn {
+    border:none;
+    width:240px;
+    height:40px;
+    border-radius:8px;
+    background:var(--black);
+    color:white;
+
+    &:hover {
+        background:var(--lighterblack);
+        cursor:pointer;
+    }
+}
