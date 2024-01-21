@@ -1,7 +1,17 @@
 /* LIST OF ALL VARIABLES FOR USE */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 * {
     --darkred:#CC0000;
     --red:#ff0000;
     --black:#333;
     --lighterblack:#555;
+    --water:#2289ff;
+    --electric:#ffd103;
+    --grass:#60c41e;
+    --fire:#ffaa29;
+
+    font-family:Lato;
+    
 }
+
