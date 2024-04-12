@@ -3,7 +3,7 @@ import CSS from "./NameSelection.module.css";
 import { Context } from "../App";
 
 const NameSelection = () => {
-  const [setPlayerName] = useContext(Context);
+  const [playerName, setPlayerName] = useContext(Context);
   const username = useRef();
 
   const handleSaveName = () => {
